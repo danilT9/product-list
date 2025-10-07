@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "basiclightbox": "^5.0.4",
     "parcel": "^2.16.0"
   }
 }

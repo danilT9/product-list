@@ -20,11 +20,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-} #list img {
+} #list button {
     width: 600px; height: 300px;
-} #list li img {
+} #list li button {
     transition: all 0.3s ease;
-} #list li img:hover { 
+} #list li button:hover { 
     transform: scale(1.03); transition: 0.3s transform ease;
 } #list p {
     display: flex;
