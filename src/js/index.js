@@ -60,12 +60,11 @@ productList.addEventListener("click", e => {
                 "></div>
             </div>
         `);
-        instance.show();
-
         page.addEventListener("keydown", e => {
             if (e.key === "Escape") {
                 instance.close();
             }
         });
+        instance.show();
     }
 });
